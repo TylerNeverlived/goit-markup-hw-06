@@ -31,7 +31,7 @@ body {
   margin-bottom: 0;
   margin-left: auto;
   margin-right: auto;
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
 }
 
 /* .section {
@@ -1110,13 +1110,13 @@ img {
     width: calc(100% - 24) / 2;
     max-width: 356px;
   }
-  .footer {
+  /* .footer {
     display: block;
     position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-  }
+  } */
   .footer-container {
     row-gap: 72px;
     column-gap: 24px;
