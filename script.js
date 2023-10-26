@@ -11,14 +11,14 @@ console.log(btnShowMenuWindow);
 console.log(btnsShowModalWindow);
 
 const showModalWindow = function () {
-  modalWindow.classList.remove('is-hiden');
+  modalWindow.classList.add('is-hiden');
   //  modalWindow.style.display = 'block';
-  overlay.classList.remove('is-hiden');
+  overlay.classList.add('is-hiden');
 };
 
 const closeModalWindow = function () {
-  modalWindow.classList.add('is-hiden');
-  overlay.classList.add('is-hiden');
+  modalWindow.classList.remove('is-hiden');
+  overlay.classList.remove('is-hiden');
 };
 
 for (let i = 0; i < btnsShowModalWindow.length; i++) {
@@ -36,11 +36,11 @@ document.addEventListener('keydown', function (e) {
 });
 
 const showMenuWindow = function () {
-  menuWindow.classList.remove('is-hiden');
+  menuWindow.classList.add('is-hiden');
 };
 
 const closeMenuWindow = function () {
-  menuWindow.classList.add('is-hiden');
+  menuWindow.classList.remove('is-hiden');
 };
 
 for (let i = 0; i < btnShowMenuWindow.length; i++) {
